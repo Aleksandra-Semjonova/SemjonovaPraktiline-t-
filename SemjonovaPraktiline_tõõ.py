@@ -65,25 +65,43 @@
 #for p in range(N):
 #    print(arvud[p]*S)
 
-#4
-Indeksid=["Tallinn","Narva,Narva-Jõesuu","Kohtla-Järve","Ida-Virumaa,Lääne-Virumaa,Jõgevamaa","Tartu linn","Tartumaa,Põlvamaa,Võrumaa,Valgamaa","ViljandimaA, Järvamaa, Harjumaa, Raplamaa","Pärnumaa","Läänemaa, Hiiumaa, Saaremaa"]
-while True:
-    while True:
-        try:
-            indeks=int(input("Sisesta viienumbriline indels: "))
-        #1000,1567,959568
-        #if 1000<=indeks<=99999:
-            indeks_elemendide_arv=len(str(indeks))
-            if indeks_elemendide_arv==5:
-                pass
-            else:
-                print("on vaja 5 numbriline arv(indeks)")
-        except:
-            print("Vale andmetüüp")
-        arv1=indeks//10000
-        print(arv1)
-        symbolid=list(str(indeks))
-        sym1=symbolid[0]
-        print(sym1)
+##4
+#Indeksid=["Tallinn","Narva,Narva-Jõesuu","Kohtla-Järve","Ida-Virumaa,Lääne-Virumaa,Jõgevamaa","Tartu linn","Tartumaa,Põlvamaa,Võrumaa,Valgamaa","ViljandimaA, Järvamaa, Harjumaa, Raplamaa","Pärnumaa","Läänemaa, Hiiumaa, Saaremaa"]
+#while True:
+#    while True:
+#        try:
+#            indeks=int(input("Sisesta viienumbriline indels: "))
+#        #1000,1567,959568
+#        #if 1000<=indeks<=99999:
+#            indeks_elemendide_arv=len(str(indeks))
+#            if indeks_elemendide_arv==5:
+#                pass
+#            else:
+#                print("on vaja 5 numbriline arv(indeks)")
+#        except:
+#            print("Vale andmetüüp")
+#        arv1=indeks//10000
+#        print(arv1)
+#        #symbolid=list(str(indeks))
+#        #sym1=symbolid[0]
+#        #print(sym1)
+#        print(f"Sa elad piirkonnas {Indeksid[int(symbolid[0])-1]}")
 
+#5
+from random import *
+from re import A 
+from string import *
+rida=[]
+N=randint(2,25)
+for i in range(N):
+    rada.append(choice(ascii_uppercase))
+print(rida)
+kogus=int(input("Mitu elemendi vahetame oma vahel "))
+if len(rida)//2>=kogus:
+    for i in range(kogus):
+        a=rida[i]
+        rida[i]=rida[len(rida)-i-1]
+        rida[len(rida)-1-i]=a
+print(rida)
 
+#6
