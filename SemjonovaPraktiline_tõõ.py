@@ -87,21 +87,77 @@
 #        #print(sym1)
 #        print(f"Sa elad piirkonnas {Indeksid[int(symbolid[0])-1]}")
 
-#5
-from random import *
-from re import A 
-from string import *
-rida=[]
-N=randint(2,25)
-for i in range(N):
-    rada.append(choice(ascii_uppercase))
-print(rida)
-kogus=int(input("Mitu elemendi vahetame oma vahel "))
-if len(rida)//2>=kogus:
-    for i in range(kogus):
-        a=rida[i]
-        rida[i]=rida[len(rida)-i-1]
-        rida[len(rida)-1-i]=a
-print(rida)
+##5
+#from random import *
+#from re import A 
+#from string import *
+#rida=[]
+#N=randint(2,25)
+#for i in range(N):
+#    rada.append(choice(ascii_uppercase))
+#print(rida)
+#kogus=int(input("Mitu elemendi vahetame oma vahel "))
+#if len(rida)//2>=kogus:
+#    for i in range(kogus):
+#        a=rida[i]
+#        rida[i]=rida[len(rida)-i-1]
+#        rida[len(rida)-1-i]=a
+#print(rida)
 
 #6
+#nimekirja1=[]
+#nimekirja=[]
+#n=int(input("Nimekirja suurus: "))
+#for i in ramge(n):
+#    arv=randint(10,100)
+#    nimekirja1.append(arv)
+#    nimekirja.append(arv)
+#maksimum=nimekirja[0]
+#for arv in nimekirja:
+#    if arv>maksimum:
+#        maksimum=arv
+#        vajavarv=maksimum/len(nimekirja)
+#for i in range(len(nimekirja)):
+#    if nimekirja[i]==maksimum:
+#        nimekirja[i]=vajavarv 
+#print(nimekirja1)
+#print(nimekirja)
+
+##6
+#nimekirja=[] 
+#n=int(input("Nimekirja suurus: "))
+#for i in range(n):
+#    arv=randint(10,100)
+
+
+##9
+#nimi=input("Mis su nimi on?")
+#if nimi.isalpha():
+#    print("Tere,"+ nimi.capitalize())
+#    print("Nimes on",len(nimi),"tähte")
+#vokaali=0
+#konsonanti=0
+#for i in nimi.lower():
+#    if i in "aouiüõöjeä":
+#        vokaali +=1
+#    else:
+#        konsonanti +=1
+#print("Nimes on", vokaali,"vokaali ja",konsonanti,"konsonanti")
+#soorteerimine_nimi=sorted(set(nimi.lower()))
+#soorteerimine_i=(sorteerimine_nimi)
+#print("Tähed nimes tähestiku järjekorras: ")
+
+#16
+from random import *
+
+jada=["Jah, kindlasti!", "Jah!", "Võib-olla!", "Ei!"] 
+while True:
+    küsimus=input("Küsi küsimus: ")
+    if küsimus.lower()=="jah/ei":
+        vastus=choice(jada)
+        print(vastus)
+    else:
+        print("küsimus pole selge. Proovige esitada küsimus 'jah/ei' ")
+
+#7
+numbrid
