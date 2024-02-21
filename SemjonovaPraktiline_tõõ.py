@@ -160,13 +160,21 @@
 #        print("küsimus pole selge. Proovige esitada küsimus 'jah/ei' ")
 
 #11
-#tähestik=["a","b","c","d", "e", "f", "g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
-#indeks = -1
-#for i in tähestik:
+#kirju=["a","b","c","d", "f", "g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+#indeks = 0
+#for j in kirju:
 #   indeks += 1
-#   tähestik[indeks] = i * (indeks + 1) 
-#print("Inglise tähestiku järjestus: "+str(tähestik))
+#   kirju[indeks] = j*(indeks + 1) 
+#print("tähestiku järjekord:", kirju)
 
-#7
-
-numbrid=()
+#12
+from random import*
+arv=[]
+for i in range(10):
+    arv.append(randint(1,100))
+minarv=min(arv)
+maxarv=max(arv) 
+minindex=arv.index(minarv)
+maxindex=arv.index(maxarv)
+arv[minindex],arv[maxindex]=arv[minindex],arv[minindex]
+print(arv)
