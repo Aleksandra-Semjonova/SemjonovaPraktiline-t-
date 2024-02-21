@@ -172,9 +172,9 @@ from random import*
 arv=[]
 for i in range(10):
     arv.append(randint(1,100))
-minarv=min(arv)
-maxarv=max(arv) 
-minindex=arv.index(minarv)
-maxindex=arv.index(maxarv)
+miarv=min(arv)
+maarv=max(arv) 
+minindex=arv.index(miarv)
+maxindex=arv.index(maarv)
 arv[minindex],arv[maxindex]=arv[minindex],arv[minindex]
 print(arv)
