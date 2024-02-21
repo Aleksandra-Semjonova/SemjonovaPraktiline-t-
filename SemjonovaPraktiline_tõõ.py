@@ -143,9 +143,8 @@
 #    else:
 #        konsonanti +=1
 #print("Nimes on", vokaali,"vokaali ja",konsonanti,"konsonanti")
-#soorteerimine_nimi=sorted(set(nimi.lower()))
-#soorteerimine_i=(sorteerimine_nimi)
-#print("Tähed nimes tähestiku järjekorras: ")
+#soortnimi=sorted(set(nimi.lower()))
+#print("Tähed nimes tähestiku järjekorras:")
 
 #16
 #from random import *
