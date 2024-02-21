@@ -148,16 +148,25 @@
 #print("Tähed nimes tähestiku järjekorras: ")
 
 #16
-from random import *
+#from random import *
 
-jada=["Jah, kindlasti!", "Jah!", "Võib-olla!", "Ei!"] 
-while True:
-    küsimus=input("Küsi küsimus: ")
-    if küsimus.lower()=="jah/ei":
-        vastus=choice(jada)
-        print(vastus)
-    else:
-        print("küsimus pole selge. Proovige esitada küsimus 'jah/ei' ")
+#jada=["Jah, kindlasti!", "Jah!", "Võib-olla!", "Ei!"] 
+#while True:
+#    küsimus=input("Küsi küsimus: ")
+#    if küsimus.lower()=="jah/ei":
+#        vastus=choice(jada)
+#        print(vastus)
+#    else:
+#        print("küsimus pole selge. Proovige esitada küsimus 'jah/ei' ")
+
+#11
+#tähestik=["a","b","c","d", "e", "f", "g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+#indeks = -1
+#for i in tähestik:
+#   indeks += 1
+#   tähestik[indeks] = i * (indeks + 1) 
+#print("Inglise tähestiku järjestus: "+str(tähestik))
 
 #7
-numbrid
+
+numbrid=()
